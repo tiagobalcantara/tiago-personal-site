@@ -1,38 +1,102 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tiago Alcântara - Personal Trainer</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f8f8f8; }
-    header { background-color: #fff; padding: 20px; text-align: center; }
-    header img { max-height: 80px; }
-    main { padding: 20px; }
-    section { margin-bottom: 40px; }
-    .about-images { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
-    .about-images img { max-width: 250px; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
-    h1, h2 { color: #333; }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tiago Balbino - Personal Trainer</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <img src="logo-tiago.jpeg" alt="Tiago Alcântara Personal Trainer Logo">
+    <img src="logo.jpeg" alt="Logo Tiago Balbino" class="logo" />
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
   </header>
-  <main>
-    <section>
-      <h1>Sobre Mim</h1>
-      <p>Sou Tiago Balbino de Alcântara, Bacharel em Educação Física, coordenador de ginástica e personal trainer com foco em emagrecimento e modelagem corporal. Tenho experiência em ciclismo indoor, Body Combat e gestão esportiva.</p>
-      <div class="about-images">
-        <img src="foto1.jpeg" alt="Foto Tiago 1">
-        <img src="foto2.jpeg" alt="Foto Tiago 2">
-        <img src="foto3.jpeg" alt="Foto Tiago 3">
-        <img src="foto4.jpeg" alt="Foto Tiago 4">
-        <img src="foto5.jpeg" alt="Foto Tiago 5">
-        <img src="foto6.jpeg" alt="Foto Tiago 6">
-      </div>
-    </section>
-  </main>
+
+  <section id="inicio">
+    <h1>Transforme seu corpo com um acompanhamento de verdade.</h1>
+    <p>Resultados reais com Tiago Balbino.</p>
+    <a href="https://wa.me/seunumero" class="btn">Fale comigo no WhatsApp</a>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Sou Tiago Balbino de Alcântara, coordenador de ginástica e Bacharel em Educação Física. Fui responsável por introduzir o ciclismo indoor no método americano na ViaFit, referência regional nessa modalidade.</p>
+    <p>Com certificações internacionais (como Body Combat) e capacitação em Gestão Esportiva pela Les Mills, minha missão é transformar vidas com planos personalizados que geram resultados reais.</p>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <ul>
+      <li>Treinamento Personalizado (Presencial/Online)</li>
+      <li>Emagrecimento com técnica e acompanhamento</li>
+      <li>Modelagem corporal (incluindo foco em glúteos)</li>
+      <li>Avaliação física e plano individualizado</li>
+      <li>Aulas de ginástica em grupo e ciclismo indoor</li>
+    </ul>
+
+    <h3>Planos e Valores</h3>
+    <ul>
+      <li><strong>Consultoria on-line + avaliação presencial + periodização de treino + 1 treino presencial mensal:</strong> R$ 197,00</li>
+      <li><strong>Consultoria on-line + avaliação de progresso visual Mensal:</strong> R$ 129,90</li>
+      <li><strong>Plano Trimestral - Consultoria on-line + avaliação presencial + periodização de treino + 1 treino presencial mensal:</strong> R$ 547,00</li>
+      <li><strong>Plano Trimestral - Consultoria on-line + avaliação de progresso visual:</strong> R$ 347,00</li>
+      <li><strong>Plano Semestral - Consultoria on-line + avaliação presencial + periodização de treino + 1 treino presencial mensal:</strong> R$ 997,00</li>
+      <li><strong>Plano Semestral - Consultoria on-line + avaliação de progresso visual:</strong> R$ 647,00</li>
+      <li><strong>Plano Presencial - 2x por semana (8 aulas por mês):</strong> R$ 450,00</li>
+      <li><strong>Plano Presencial - 3x por semana (12 aulas por mês):</strong> R$ 650,00</li>
+      <li><strong>Plano Presencial - 5x por semana (20 aulas por mês):</strong> R$ 1.200,00</li>
+    </ul>
+    <p><em>Todos os planos incluem avaliação física completa e avaliação de progresso visual.</em></p>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria</h2>
+    <div class="galeria">
+      <img src="foto1.jpeg" alt="Tiago Alcântara 1" />
+      <img src="foto2.jpeg" alt="Tiago Alcântara 2" />
+      <img src="foto3.jpeg" alt="Tiago Alcântara 3" />
+      <img src="foto4.jpeg" alt="Tiago Alcântara 4" />
+      <img src="foto5.jpeg" alt="Tiago Alcântara 5" />
+      <img src="foto6.jpeg" alt="Tiago Alcântara 6" />
+    </div>
+  </section>
+
+  <section id="depoimentos">
+    <h2>Depoimentos</h2>
+    <p>"Com o Tiago, alcancei resultados que nunca imaginei. O acompanhamento é de verdade!"</p>
+  </section>
+
+  <section id="contato">
+    <h2>Entre em Contato</h2>
+    <a href="https://wa.me/seunumero">WhatsApp</a>
+    <a href="https://instagram.com/seuusuario">Instagram</a>
+    <a href="mailto:seuemail@exemplo.com">Email</a>
+
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tiago Balbino - Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
